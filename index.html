@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<title>4everZard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('zard2.jpg');
+    min-height: 100%;
+}
+
+/* Second image (ALBUM) */
+.bgimg-2 {
+    background-image: url("zard5.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Other) */
+.bgimg-3 {
+    background-image: url("zard6.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar" id="myNavbar">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-hover-black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+    </li>
+    <li class="w3-left-align"><a href="#home"><i class="fa fa-home"></i> HOME</a></li>
+    <li class="w3-hide-small"><a href="#biography"><i class="fa fa-user"></i> BIOGRAPHY</a></li>
+    <li class="w3-hide-small"><a href="#album"><i class="fa fa-book"></i> ALBUM</a></li>
+    <li class="w3-hide-small"><a href="#other"><i class="fa fa-th"></i> OTHER</a></li>
+    <li class="w3-hide-small w3-right">
+      <a href="#" class="w3-hover-red">
+        <i class="fa fa-search"></i>
+      </a>
+    </li>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-white">
+      <li><a href="#biography" onclick="toggleFunction()">BIOGRAPHY</a></li>
+      <li><a href="#album" onclick="toggleFunction()">ALBUM</a></li>
+      <li><a href="#other" onclick="toggleFunction()">OTHER</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">Izumi Sakai</span>
+  </div>
+</div>
+
+<!-- Container (BIOGRAPHY Section) -->
+<div class="w3-content w3-container w3-padding-64" id="BIOGRAPHY">
+  <h2 class="w3-center">BIOGRAPHY</h2>
+  <p class="w3-center"><em>ZARD</em></p>
+  <p>Sachiko Kamachi (蒲池 幸子 Kamachi Sachiko, February 6, 1967 – May 27, 2007), known professionally as Izumi Sakai (坂井 泉水 Sakai Izumi), was a Japanese pop singer, songwriter, and member of the group Zard. As Sakai was the only member who stayed in the group while others joined and left regularly, Zard and Sakai may be referred to interchangeably. She was the best-selling female recording artist of the 1990s and has sold over 37 million copies of sales, making her one of the best-selling music artists in Japan of all time.Born in Kurume, Fukuoka, Japan, Sakai grew up in Hadano, Kanagawa. Her father was a driving instructor, and she had a younger brother and younger sister. Throughout her life, Sakai remained with her family, living modestly and mostly out of the public eye. Upon achieving career success, she helped pay for her parents home renovation. Acquaintances say that she commuted by subway every day, often wore T-shirts and minimal makeup. She did not wear any makeup in all seven of the television appearances she made in her lifetime. In promoting her third single, "Mō Sagasanai," and first album, Good-bye My Loneliness on February 6, 1991, she wore glasses in the television interview, citing the fact she had not slept the night before. She also indicated that she often slept in the morning rather than the evening. </p>
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="zard3.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Zard" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>In 1991, Sakai joined the five-member pop group Zard as lead vocalist. The group name did not have any particular meaning except Sakai felt that word Zard sounded like a rock group. She also took the name as derived from words such as "blizzard" and "wizard." The group’s name very quickly became synonymous with Sakai herself, and Sakai wrote the lyrics to all of Zard's songs.<br> Izumi Sakai released "Makenaide" on January 27, 1993, her sixth single which appealed to the Japanese public. Released at a time that is now seen as the beginning of Japan's post economic bubble era when the Nikkei 225 Index had shrunk in value by a third in only three years, "Makenaide" (Don't Give Up) became known as the theme song of the country's Lost Decade." While Sakai commented on the television show Music Station that it would be a song to encourage men taking college and company employment examinations, many people said this song helped them cope with difficult issues such as school bullying. What is notable about "Makenaide" is that Zard fans’ favorite phrase, "Run through Until the End" was originally "Do Not Give Up until the End". <br> </p>
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64" id="BIOGRAPHY">
+    Sakai died on 27 May 2007. Police judged her death accidental, the result of a fall from the landing of an emergency-exit slope at Keio University Hospital, where she was undergoing chemotherapy. The slope appeared to be very slippery due to rain the day before.[6] According to police, the fall took place during a walk on the morning of 26 May 2007, from a height of about 3 meters (about 9 feet and 10 inches). Sakai was discovered unconscious at around 5:40 a.m. by a passer-by and taken to the emergency room, where she died the following afternoon of head injuries. 
+
+    </div>
+
+  </div>
+  <br><br>
+  <h2 class=" w3-center ">STATISTICS</h2>
+ 
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">37,430,000+</span><br>
+    CD Sale
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">11</span><br>
+    Album
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">42</span><br>
+    Single
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">12</span><br>
+    Concert
+  </div>
+</div>
+
+<!-- Second Parallax Image with ALBUM Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide">ALBUM</span>
+  </div>
+</div>
+
+<!-- Container (ALBUM Section) -->
+<div class="w3-content w3-container w3-padding-64" id="ALBUM">
+  <h3 class="w3-center">ZARD'S &nbsp&nbsp ALBUM</h3>
+  <p class="w3-center"><em>Forget your worries and give me your smile </em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="a1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="OH MY LOVE">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="a2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="forever you">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="a3.jpg" style="width:100% " onclick="onClick(this)" class="w3-hover-opacity" alt="Brezza di mare">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="a4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Good-bye My Loneliness">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="a5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ZARD ALBUM COLLECTION ～20th ANNIVERSARY～">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="a6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soffio di vento ">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="a7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ZARD Forever Best ～25th Anniversary～">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="a8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ZARD SINGLE COLLECTION">
+    </div>
+    <button class="w3-btn w3-light-grey w3-padding-xlarge" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with ALBUM Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-light-grey w3-wide">OTHER</span>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-btn w3-padding w3-light-grey w3-hover-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+    <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+  </div>
+  <p>Powered by 4everZard</p>
+</footer>
+ 
+<script>
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: http://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
